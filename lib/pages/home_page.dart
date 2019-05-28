@@ -77,6 +77,7 @@ class HomePageState extends State<HomePage> {
                       : Colors.white,
                 ),
             ),
+            new Column(children: drawerOptions)
           ],
         ),
       ),
